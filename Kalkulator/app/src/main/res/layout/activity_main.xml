@@ -25,6 +25,7 @@
         android:layout_width="150dp"
         android:text="ANGKA 1 :"
         android:textSize="30dp"
+        android:layout_marginLeft="10dp"
         android:layout_height="wrap_content"/>
 
     <EditText
@@ -44,6 +45,7 @@
             android:layout_width="150dp"
             android:text="ANGKA 2 :"
             android:textSize="30dp"
+            android:layout_marginLeft="10dp"
             android:layout_height="wrap_content"/>
 
         <EditText
@@ -54,16 +56,6 @@
             android:gravity="start|top"
             android:inputType="textMultiLine"/>
     </LinearLayout>
-    <Button
-        android:id="@+id/tblHitung"
-        android:layout_width="wrap_content"
-        android:text="HITUNG"
-        android:textColor="@color/teal_200"
-        android:layout_marginTop="30dp"
-        android:textAlignment="center"
-        android:textSize="30dp"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"/>
     <LinearLayout
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
@@ -80,6 +72,49 @@
 
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/tblTambah"
+        android:layout_width="96dp"
+        android:text="TAMBAH(+)"
+        android:textColor="@color/teal_200"
+        android:textSize="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_gravity="center"
+        android:layout_height="96dp"/>
+    <Button
+        android:id="@+id/tblKurang"
+        android:layout_width="96dp"
+        android:layout_marginLeft="5dp"
+        android:text="KURANG(-)"
+        android:textColor="@color/teal_200"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:layout_height="96dp"/>
+    <Button
+        android:id="@+id/tblKali"
+        android:layout_width="96dp"
+        android:layout_marginLeft="5dp"
+        android:text="KALI(X)"
+        android:textColor="@color/teal_200"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:layout_height="96dp"/>
+    <Button
+        android:id="@+id/tblBagi"
+        android:layout_width="96dp"
+        android:layout_marginLeft="5dp"
+        android:text="BAGI(:)"
+        android:textColor="@color/teal_200"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:layout_height="96dp"/>
+</LinearLayout>
 
 
 
